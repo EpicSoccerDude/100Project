@@ -1,0 +1,15 @@
+body {
+  display: block;
+  font-family: 'Century Gothic';
+  text-align: center;
+  background: url("http://www.planwallpaper.com/static/images/cool-background.jpg") center center no-repeat;
+  color: white;
+  font-size: 35px
+}
+p {
+  color: white;
+  font-size: 20px
+}
+img {
+  float: center;
+}
