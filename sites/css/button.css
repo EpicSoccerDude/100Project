@@ -1,0 +1,24 @@
+button {
+  text-transform: uppercase;
+  background: lime;
+  padding: 5px 65;
+  transition: all 1s ease;
+  font-family: 'Century Gothic';
+  font-size: 20px;
+  color: red;
+}
+button:hover {
+  background: transparent; 
+  border: 4px solid red;
+  color: green;
+  background: orange;
+  padding: 25px 75px;
+} 
+body {
+  text-align: center;
+  background: url("http://www.motionbackgroundsforfree.com/wp-content/uploads/2012/02/Screen-shot-2012-02-16-at-10.00.01-AM.png");
+}
+p {
+  color: yellow;
+  font-size: 24px;
+}
