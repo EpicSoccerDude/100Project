@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<title>Random Number!</title>
+ <link rel="stylesheet" type="text/css" href="http://epicsoccerdude.github.io/100Project/sites/css/number.css" />
+</head>
+<body>
+<p>
+  Click to get a Random number from 1-200!
+</p>
+<button onclick="myFunction()">Click here!</button>
+<p
+id="random">
+</p> 
+<script>
+function myFunction() {
+    var x = document.getElementById("random")
+    x.innerHTML = Math.floor((Math.random() * 200) + 1);
+}
+</script>
+</body>
+</html>
