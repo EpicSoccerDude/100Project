@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  font-family: 'Century Gothic';
+}
+button {
+  font-family: 'Century Gothic';
+  transition: all 1s ease;
+  text-transform: uppercase;
+  padding: 20px 75px;
+  color: blue;
+  background: rainbow;
+  border-radius: 1000px;
+  border: 12px dotted green;
+}
+button:hover {
+  background: transparent; 
+  border: 4px solid blue;
+  color: white;
+  background: coral;
+  padding: 30px 80px;
+}
+button:focus {
+  border: none;
+}
+p {
+  font-size: 23px;
+  color: red;
+}
