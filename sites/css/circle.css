@@ -12,7 +12,7 @@ button {
   text-transform: uppercase;
   background: blue;
   border-radius: 1000px;
-  border: 2px solid black;
+  border: none;
 }
 button:hover {
   background: transparent;
