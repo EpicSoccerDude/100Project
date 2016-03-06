@@ -12,10 +12,10 @@ button {
   text-transform: uppercase;
   background: blue;
   border-radius: 1000px;
-  border: none;
+  border: black;
 }
 button:hover {
   background: transparent;
   background: violet;
-  border: none;
+  border: green;
 }
