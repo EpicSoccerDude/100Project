@@ -9,7 +9,7 @@ var y = 1;
 var draw = function() {
 ctx.fillStyle = "violet";
 ctx.fillRect(x,y,150,75);
-x += 15
-y += 15
+x += 20
+y += 20
 }
 setInterval(draw,300);
