@@ -27,15 +27,15 @@ h2:hover {
   cursor: default;
 }
 p {
-  font-size: 35px;
+  font-size: 38px;
   font-family: Sand-serif;
-  color: violet;
+  color: green;
   cursor: default;
 }
 p:hover {
   font-size: 40px;
   font-family: 'Century Gothic';
-  color: green;
+  color: violet;
   cursor: default;
 }
 h3 {
