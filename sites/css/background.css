@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: skyblue;
+  background: skyblue
 }
 .hello {
   color: green;
@@ -19,4 +19,9 @@ body {
 }
 .hola:hover {
   color: purple;
+}
+p {
+  color: green;
+  font-size: 18px;
+  font-family: 'Century Gothic';
 }
