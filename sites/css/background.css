@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  background: skyblue;
+}
+.hello {
+  color: green;
+}
+.hello:hover {
+  color: purple;
+}
+.hi {
+  color: red;
+}
+.hi:hover {
+  color: purple;
+}
+.hola {
+  color: brown;
+}
+.hola:hover {
+  color: purple;
+}
