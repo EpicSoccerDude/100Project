@@ -15,4 +15,12 @@ img {
 }
 a {
   font-size: 20px;
+  color: white;
+  text-decoration: none;
 }
+a:hover {
+  font-size: 22px;
+  color: blue;
+  text-decoration: underline;
+}
+
