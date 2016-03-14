@@ -1,0 +1,11 @@
+#colors {
+  width: 580px;
+  height: 442px;
+  background: red;
+  -webkit-animation: colors 1s infinite;
+  animation: colors 5s infinite;
+}
+@keyframes colors {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
