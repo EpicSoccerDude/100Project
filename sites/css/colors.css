@@ -1,6 +1,6 @@
 #colors {
   width: 1353px;
-  height: 653px;
+  height: 650px;
   background: red;
   -webkit-animation: colors 1s infinite;
   animation: colors 5s infinite;
@@ -8,4 +8,7 @@
 @keyframes colors {
   from {background-color: red;}
   to {background-color: blue;}
+}
+body {
+  background: lightgreen;
 }
