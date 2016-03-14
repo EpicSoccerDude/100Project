@@ -1,6 +1,6 @@
 #colors {
-  width: 800px;
-  height: 800px;
+  width: 1000px;
+  height: 1000px;
   background: red;
   -webkit-animation: colors 1s infinite;
   animation: colors 5s infinite;
