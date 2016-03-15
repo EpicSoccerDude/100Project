@@ -3,8 +3,8 @@ div {
     height: 400px;
     background-color: red;
     position: absolute;
-    top: 60%;
-    left: 60%;
+    top: 50px;
+    left: 60px;
     animation-name: move;
     animation-duration: 4s; 
     animation-iteration-count: infinite; 
