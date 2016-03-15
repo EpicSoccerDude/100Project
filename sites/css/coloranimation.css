@@ -1,3 +1,10 @@
+p {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    color: white;
+    font-size: 15px;
+}
 div {
     width: 400px;
     height: 400px;
