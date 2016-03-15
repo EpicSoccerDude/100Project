@@ -3,8 +3,8 @@ div {
     height: 400px;
     background-color: red;
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 60%;
+    left: 60%;
     animation-name: move;
     animation-duration: 4s; 
     animation-iteration-count: infinite; 
@@ -12,7 +12,7 @@ div {
 @keyframes move {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:lightgreen; left:200px; top:200px;}
+    50%  {background-color:brown; left:200px; top:200px;}
     75%  {background-color:coral; left:0px; top:200px;}
     100% {background-color:skyblue; left:0px; top:0px;}
 }
