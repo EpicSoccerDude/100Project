@@ -1,0 +1,28 @@
+p {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    color: white;
+    font-size: 15px;
+}
+div {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    animation-name: move;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite; 
+}
+@keyframes move {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:brown; left:200px; top:200px;}
+    75%  {background-color:coral; left:0px; top:200px;}
+    100% {background-color:skyblue; left:0px; top:0px;}
+}
+body {
+  background: seagreen;
+}

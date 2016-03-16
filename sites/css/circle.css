@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  background: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/02/DragonFly-Plants-Nature-HD-Wallpapers.jpg");
+}
+p {
+  color: green;
+  font-size: 25px;
+}
+button {
+  padding: 10px 10px;
+  transition: all 1s ease;
+  text-transform: uppercase;
+  background: blue;
+  border-radius: 1000px;
+  border: black;
+}
+button:hover {
+  background: transparent;
+  background: violet;
+  border: green;
+}

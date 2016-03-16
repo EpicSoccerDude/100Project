@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background: url("http://cliparwolf.com/images/black-background/black-background-11.jpg");
+}
+h1 {
+  font-size: 28px;
+  font-family: 'Century Gothic';
+  color: red;
+  cursor: default;
+}
+h1:hover {
+  font-size: 30px;
+  font-family: serif;
+  color: green;
+  cursor: default;
+}
+h2 {
+  font-size: 26px;
+  font-family: serif;
+  color: brown;
+  cursor: default;
+}
+h2:hover {
+  font-size: 28px;
+  font-family: 'Century Gothic';
+  color: blue;
+  cursor: default;
+}
+p {
+  font-size: 38px;
+  font-family: Sand-serif;
+  color: green;
+  cursor: default;
+}
+p:hover {
+  font-size: 40px;
+  font-family: 'Century Gothic';
+  color: violet;
+  cursor: default;
+}
+h3 {
+  text-align: left;
+  font-size: 14px;
+  color: purple;
+  cursor: default;
+}
+h3:hover {
+  font-size: 15px;
+  color: pink;
+  font-family: 'Century Gothic';
+}
