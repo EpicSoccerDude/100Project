@@ -1,0 +1,100 @@
+* {
+  font-family: 'Century Gothic';
+}
+.container {
+   position: fixed;
+   display: inline-block;
+   cursor: pointer;
+   top: 3%;
+   left: 90%;
+   z-index: 100;
+   font-family: 'Century Gothic';
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-405deg) translate(-9px, 6px) ;
+    transform: rotate(-405deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(405deg) translate(-8px, -8px) ;
+    transform: rotate(405deg) translate(-8px, -8px) ;
+}
+.overlay {
+  color: white;
+  position: fixed;
+  background: skyblue;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s, visibility 5s, width 5s;
+  overflow: hidden;
+}
+.overlay.open {
+  opacity: .9;
+  visibility: visible;
+  height: 100%;
+}
+.overlay.close {
+  transition: opacity 1s, visibility 5s, width 5s;
+}
+.overlay.open ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+}
+.home {
+  text-decoration: none;
+  cursor: pointer;
+}
+.home:hover {
+  text-decoration: underline;
+  margin: 2px 2px;
+  text-tranform: uppercase;
+}
+.home:active {
+  color: red;
+  text-decoration: none;
+  font-size: 26px;
+}
+.blog {
+  text-decoration: none;
+  cursor: pointer;
+}
+.blog:hover {
+  text-decoration: underline;
+  margin: 1px 2px;
+  text-tranform: uppercase;
+}
+.blog:active {
+  color: red;
+  text-decoration: none;
+  font-size: 26px;
+}
+.about {
+  text-decoration: none;
+  cursor: pointer; 
+}
+.about:hover {
+  text-decoration: underline;
+  margin: 1px 2px;
+}
+.about:active {
+  color: red;
+  text-decoration: none;
+  font-size: 26px;
+}
