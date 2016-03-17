@@ -2,9 +2,7 @@ h1 {
   text-align: center;
 }
 h2 {
-  position: absolute;
-  top: 15%;
-  left: 50%;
+  text-align: center;
 }
 .btn1 {
   position: absolute;
@@ -66,4 +64,5 @@ h2 {
 body {
   font-family: 'Century Gothic';
   background: url("http://bgfons.com/upload/ice_texture2977.jpg");
+  text-align: center;
 }
