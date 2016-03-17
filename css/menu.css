@@ -98,13 +98,27 @@
   text-decoration: none;
   font-size: 26px;
 }
-a {
+.a {
+  color: red;
+  font-size: 24px;
   text-decoration: none;
-  color: 2px solid red;
-  font-size: 20px;
-  position: absolute;
-  left: 50%;
 }
-a:hover {
+.a:hover {
+  text-decoration: underline;
+}
+.b {
+  color: red;
+  font-size: 24px;
+  text-decoration: none;
+}
+.b:hover {
+  text-decoration: underline;
+}
+.c {
+  color: red;
+  font-size: 24px;
+  text-decoration: none;
+}
+.c:hover {
   text-decoration: underline;
 }
