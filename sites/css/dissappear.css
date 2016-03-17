@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+}
+.btn1 {
+  position: absolute;
+  left 40%;
+  top: 30%;
+  background: coral;
+  outline: none;
+  border: none;
+  color: white;
+  font-family: Sand-serif;
+  padding: 20px 80px;
+  transition: all 1s ease;
+  text-transform: uppercase;
+}
+.btn1:hover {
+  padding: 20.5px 80.5px;
+  background: orange;
+}
+.btn1:active {
+  padding: 19.5px 79.5px;
+  background: red;
+  transition: all 0.3s ease;
+}
+.p1 {
+  font-size: 20px;
+  position: absolute;
+  left: 5%;
+  top: 45%;
+  color: brown;
+}
+.btn2 {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  padding: 20px 80px;
+  background: blue;
+  color: white;
+  outline: none;
+  border: none;
+  transition: all 1s ease;
+  text-tranform: uppercase;
+}
+.btn2:hover {
+  padding: 20.5px 80.5px;
+  background: skyblue;
+}
+.btn2:active {
+  padding: 19.5px 79.5px;
+  background: magenta;
+  transition: all 0.3s ease;
+}
+.p2 {
+  font-size: 20px;
+  color: green;
+  position: absolute;
+  top: 47%;
+  left: 80%;
+}
+body {
+  font-family: 'Century Gothic';
+  background: url("http://bgfons.com/upload/ice_texture2977.jpg");
+}
