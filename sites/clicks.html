@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<title>Click the Button!</title>
+</head>
+<body>
+<script>
+var clicks = 0;
+    function onClick () {
+        clicks += 1;
+        document.getElementById("clicked").innerHTML = clicks;
+    };
+</script>
+    <button type="button" onClick="onClick()">Click me</button>
+    <p>This is how many clicks you have: <a id="clicked">0</a></p>
+</body>
+</html>
