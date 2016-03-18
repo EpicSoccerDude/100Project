@@ -1,0 +1,26 @@
+button {
+  padding: 20px 80px;
+  transition: all 1s ease;
+  text-transform: uppercase;
+  background: coral;
+  color: white;
+  border: none;
+  outline: none;
+}
+button:hover {
+  padding: 20.5px 80.5px;
+  background: skyblue;
+}
+button:active {
+  padding: 19.5px 79.5px;
+  background:red; 
+  transition: all 0.2s ease;
+}
+body {
+  font-family: 'Century Gothic';
+  background : url("http://www.wallpapersonly.net/wallpapers/icebergs-and-glaciers-1280x800.jpg");
+  text-align: center;
+}
+p {
+  text-align: right;
+}
