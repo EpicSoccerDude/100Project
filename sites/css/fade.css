@@ -22,11 +22,13 @@ body {
   text-align: center;
 }
 p {
-  text-align: right;
+  position: absolute;
+  top: 70%;
+  left: 80%;
   font-size: 18px;
 }
 .first {
   position: absolute;
   top: 20%;
-  left: 45%;
+  left: 40%;
 }
