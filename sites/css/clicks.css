@@ -1,6 +1,6 @@
 body {
   font-family: Sand-serif;
-  background: ("http://wall.wallrage.com/wp-content/uploads/Mountain-Desktop-Backgrounds-HD.jpg");
+  background: url("http://wall.wallrage.com/wp-content/uploads/Mountain-Desktop-Backgrounds-HD.jpg");
 }
 button {
   position: absolute;
