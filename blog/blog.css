@@ -6,7 +6,7 @@ background: url("http://ewallpapershub.net/wp-content/uploads/2014/07/ice-glacie
 a {
   text-decoration: none;
   color: black;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 a:hover {
   text-decoration: underline;
