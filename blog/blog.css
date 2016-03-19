@@ -4,11 +4,11 @@ background: url("http://ewallpapershub.net/wp-content/uploads/2014/07/ice-glacie
 }
 h1 {
   color: red;
-  font-size: 26px;
+  padding: 26px;
 }
 p {
   color: pink;
-  font-size: 20px;
+  padding: 20px;
 }
 a {
   text-decoration: none;
