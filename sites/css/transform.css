@@ -1,0 +1,100 @@
+#one {
+  font-family: 'Century Gothic';
+  font-size: 14px;
+  padding: 20px 80px;
+  transition: all 1s ease;
+  text-transform: uppercase;
+  background: red;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  border: none;
+  outline: none;
+}
+#one:hover {
+  transform: rotateX(360deg);
+  background: grey;
+  color: black;
+  padding: 21px 81px;
+  text-decoration: underline;
+}
+#one:active {
+  background: green;
+  transition: all 0.1s ease;
+  padding: 20px 78px;
+  text-decoration: none;
+  color: coral;
+}
+#two {
+  font-family: Sand-serif;
+  font-size: 14px;
+  padding: 20px 80px;
+  transition: all 1s ease;
+  text-transform: uppercase;
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  border: none;
+  outline: none;
+}
+#two:hover {
+  transform: rotateY(360deg);
+  background: coral;
+  color: green;
+  padding: 21px 81px;
+  text-decoration: underline;
+}
+#two:active {
+  background: brown;
+  transition: all 0.2s ease;
+  padding: 20px 79px;
+  text-decoration: none;
+  color: violet;
+}
+#three {
+  font-family: serif;
+  font-size: 14px;
+  padding: 20px 80px;
+  transition: all 1s ease;
+  text-transform: uppercase;
+  background: lime;
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 75%;
+  border: none;
+  outline: none;
+}
+#three:hover {
+  transform: rotateZ(360deg);
+  background: seagreen;
+  color: purple;
+  padding: 21px 81px;
+  text-decoration: underline;
+}
+#three:active {
+  background: violet;
+  transition: all 0.3s ease;
+  padding: 20px 80px;
+  text-decoration: none;
+  color: white;
+}
+body {
+  background: url("http://previews.123rf.com/images/rudyardmace/rudyardmace1009/rudyardmace100900001/7880419-Blue-Winter-or-Christmas-Background-Stock-Vector-snow.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+p {
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  font-weight: bold;
+  text-decoration: none;
+}
