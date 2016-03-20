@@ -1,0 +1,12 @@
+body {
+  font-family: 'Century Gothic';
+  background: url("http://hdwallpapersd.com/wp-content/uploads/2015/09/grand-canyons-wide-hd-wallpaper-download-canyons-images.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  margin-top: 30%;
+  font-size: 40px;
+  font-weight: bold;
+}
