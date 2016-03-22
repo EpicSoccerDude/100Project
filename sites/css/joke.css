@@ -1,0 +1,43 @@
+#joke {
+  background: blue;
+  color: white;
+  padding: 20px 80px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 1s ease;
+  text-tranform: uppercase;
+  cursor: pointer;
+}
+
+#joke:hover {
+  outline: none;
+  border: 2px solid blue;
+  background: red;
+  text-decoration: underline;
+  border-radius: 10px;
+}
+
+#joke:active {
+  background: coral;
+  color: black;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+#jokes {
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+body {
+  text-align: center;
+  background: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/01/Grand-Canyon-HD-Wallpaper-Desktop-Wide.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 15%;
+}
