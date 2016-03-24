@@ -8,7 +8,7 @@ body {
 
 .one {
   cursor: default;
-  font-size: 24px;
+  font-size: 30px;
   font-family: 'Century Gothic';
   color: brown;
   position: absolute;
@@ -19,7 +19,7 @@ body {
 
 .two {
   cursor: default;
-  font-size: 24px;
+  font-size: 30px;
   font-family: serif;
   color: black;
   position: absolute;
@@ -30,7 +30,7 @@ body {
 
 .three {
   cursor: default;
-  font-size: 24px;
+  font-size: 30px;
   font-family: Comic Sans Ms;
   color: blue;
   position: absolute;
