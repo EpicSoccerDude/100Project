@@ -1,0 +1,78 @@
+body {
+  background: url("http://bgfons.com/upload/light_texture2234.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.one {
+  cursor: default;
+  font-size: 24px;
+  font-family: 'Century Gothic';
+  color: brown;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  text-shadow: 2px 2px black;
+}
+
+.two {
+  cursor: default;
+  font-size: 24px;
+  font-family: serif;
+  color: black;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  text-shadow: 2.5px 2.5px green;
+}
+
+.three {
+  cursor: default;
+  font-size: 24px;
+  font-family: Comic Sans Ms;
+  color: blue;
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  text-shadow: 3px 3px red;
+}
+
+h1 {
+  cursor: default;
+  text-align: center;
+  color: red;
+  text-shadow: 2.8px 2.8px hotpink;
+}
+
+button {
+  cursor: pointer;
+  padding: 20px 80px;
+  outline: none;
+  border: 2px solid green;
+  transition: all 1s ease;
+  text-transform: uppercase;
+  background: magenta;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  box-shadow: 7px 7px orange;
+}
+
+button:hover {
+  background: skyblue;
+  color: black;
+  text-decoration: underline;
+  box-shadow: 5px 5px orange;
+}
+
+button:active {
+  transition: all 0.2s ease;
+  box-shadow: 0px 0px orange;
+  margin: 2px;
+  background: red;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid black;
+}
