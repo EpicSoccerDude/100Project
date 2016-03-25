@@ -1,0 +1,36 @@
+body {
+  background: url("http://hdwallpapersd.com/wp-content/uploads/2015/06/eye-catching-wallpapers-of-ocean.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.hi {
+  position: absolute;
+  display: ;
+  cursor: crosshair;
+  color: grey;
+}
+.hi:active {
+  cursor: pointer;
+}
+.hello {
+  position: absolute;
+  left: 33%;
+  top: 4%;
+  color: grey;
+  cursor: wait;
+}
+.hello:active {
+  cursor: not-allowed;
+}
+.hola {
+  position: absolute;
+  left: 65.5%;
+  top: 4%;
+  color: grey;
+  cursor: cell;
+}
+.hola:active {
+  cursor: help;
+}
