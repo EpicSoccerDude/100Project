@@ -12,8 +12,8 @@ div {
 @keyframes move {
   0% {left:10%; top:10%;}
   25%  {background: blue; left: 80%; top:10%}
-  50% {background: orange; left:80%; top:80%;}
-  75% {background: brown; left:10%; top:80%;}
+  50% {background: orange; left:80%; top:75%;}
+  75% {background: brown; left:10%; top:75%;}
   100% {background: green; left:3%; top:10%;}
 }
 body {
