@@ -1,0 +1,21 @@
+div {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    animation-name: move;
+    animation-duration: 10s; 
+    animation-iteration-count: infinite; 
+}
+@keyframes move {
+  0% {left:10%; top:10%;}
+  25%  {background: blue; left: 90%; top:10%}
+  50% {bakcground: orange; left:90%; top:90%;}
+  75% {background: brown; left:10%; top:90%;}
+  100% {background: green; left:3%; top:10%;}
+}
+body {
+ background: #000;
+}
