@@ -1,0 +1,53 @@
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: colors;
+}
+
+#red {
+  background: red;
+  border-radius: 1000px;
+  padding: 20px 80px;
+  border: 2px solid black;
+  outline: none;
+  position: absolute;
+  left: 35%;
+}
+
+#yellow {
+  background: yellow;
+  border-radius: 1000px;
+  padding: 20px 80px;
+  border: 2px solid black;
+  outline: none;
+  position: absolute;
+  top: 45%;
+  left: 35%;
+}
+
+#green {
+  background: green;
+  border-radius: 1000px;
+  padding: 20px 80px;
+  border: 2px solid black;
+  outline: none;
+  position: absolute;
+  top: 88%;
+  left: 35%;
+}
+
+@keyframes colors {
+  33.33% {
+    background: red;
+  }
+  66.66% {
+    background: yellow;
+  }
+  99.99% {
+    background: green;
+  }
+}
