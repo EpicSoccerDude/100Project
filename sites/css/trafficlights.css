@@ -11,7 +11,7 @@ body {
 #red {
   background: red;
   border-radius: 1000px;
-  padding: 10px 70px;
+  padding: 8px 68px;
   border: 2px solid black;
   outline: none;
   position: absolute;
@@ -21,22 +21,22 @@ body {
 #yellow {
   background: yellow;
   border-radius: 1000px;
-  padding: 10px 70px;
+  padding: 8px 68px;
   border: 2px solid black;
   outline: none;
   position: absolute;
-  top: 35%;
+  top: 34%;
   left: 40%;
 }
 
 #green {
   background: green;
   border-radius: 1000px;
-  padding: 10px 70px;
+  padding: 8px 68px;
   border: 2px solid black;
   outline: none;
   position: absolute;
-  top: 68%;
+  top: 67%;
   left: 40%;
 }
 
