@@ -1,0 +1,28 @@
+body {
+  background: url("https://backgroundss.files.wordpress.com/2013/08/rainbow-background-images.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+#egg {
+  background: blue;
+  border-radius: 1000px;
+  padding: 20px 58px;
+  border: 2px solid black;
+  outline: none;
+  animation-name: colors;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes colors {
+  0% {background: red;}
+  25% {background: green;}
+  50% {background: orange;}
+  75% {background: purple;}
+  100% {background: red;}
+}
+p {
+  font-size: 30px
+}
