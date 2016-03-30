@@ -1,0 +1,19 @@
+body {
+  background: none;
+  animation-name: illusion;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes illusion {
+  10% {background: red;}
+  20% {background: blue;}
+  30% {background: green;}
+  40% {background: purple;}
+  50% {background: brown;}
+  60% {background: black;}
+  70% {background: grey;}
+  80% {background: violet;}
+  90% {background: orange;}
+  100% {background: yellow;}
+}
+  
