@@ -1,0 +1,26 @@
+body {
+  background: url("https://i.ytimg.com/vi/pbmoEk1PASE/maxresdefault.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+div {
+  height: 40px;
+  width: 40px;
+  background: red;
+  position: absolute;
+  top: 10%;
+  left: 47%;
+  animation-name: bounce;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {top: 90%;}
+  100% {top: 10%;}
+}
+
+
