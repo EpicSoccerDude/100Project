@@ -1,0 +1,51 @@
+body {
+  animation-name: background;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  transition: all 1s ease;
+}
+
+@keyframes background {
+  0% {
+    background: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/nature-wallpapers-7.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  20% {
+    background: url("http://www.hdwallpapers.in/walls/blue_water_beach-wide.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  40% {
+    background: url("http://hdwallpapersd.com/wp-content/uploads/2015/08/green-mountains-and-lake-in-norway-widescreen-high-resolution-wallpaper-download-free.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  60% {
+    background: url("http://pichdwallpaper.com/wp-content/uploads/2014/12/Sky-Wallpaper-Hd.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  80% {
+    background: url("http://wallpapercave.com/wp/EmMEpAQ.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  100% {
+    background: url("http://hdwallpapersd.com/wp-content/uploads/2015/06/baby-animals-hd-wallpapers.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
