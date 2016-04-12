@@ -27,8 +27,8 @@ c.addEventListener("click", track)
 
 function particle() {
   this.speed = {
-    x: -2 + Math.random() * 5,
-    y: -2 + Math.random() * 5
+    x: -2.5 + Math.random() * 5,
+    y: -2.5 + Math.random() * 5
   }
     this.accel = {
     x: -2 + Math.random() * 3,
