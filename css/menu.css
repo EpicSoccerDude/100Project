@@ -65,7 +65,6 @@
   text-tranform: uppercase;
 }
 .home:active {
-  color: red;
   text-decoration: none;
   font-size: 26px;
 }
@@ -79,7 +78,6 @@
   text-tranform: uppercase;
 }
 .blog:active {
-  color: red;
   text-decoration: none;
   font-size: 26px;
 }
@@ -92,7 +90,6 @@
   margin: 1px 2px;
 }
 .about:active {
-  color: red;
   text-decoration: none;
   font-size: 26px;
 }
@@ -105,9 +102,9 @@
 }
 .a:hover {
   text-decoration: underline;
+  margin: 2px;
 }
 .b {
-  color: red;
   font-size: 24px;
   text-decoration: none;
   position: absolute;
@@ -117,7 +114,6 @@
   text-decoration: underline;
 }
 .c {
-  color: red;
   font-size: 24px;
   text-decoration: none;
   position: absolute;
