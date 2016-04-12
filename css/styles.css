@@ -7,11 +7,11 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  color: black;
+  color: blue;
   font-size: 35px;
 }
 p {
-  color: black;
+  color: brown;
   font-size: 20px
 }
 img {
@@ -21,10 +21,11 @@ img {
 a {
   font-size: 18px;
   text-decoration: none;
+  background: white;
+  color: white;
 }
 a:hover {
   margin: 1px;
-  color: blue;
   text-decoration: underline;
 }
 
