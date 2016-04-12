@@ -101,6 +101,7 @@
   left: 50%;
 }
 .a:hover {
+   color: red;
   text-decoration: underline;
   margin: 2px;
 }
@@ -112,6 +113,7 @@
   left: 50%;
 }
 .b:hover {
+   color: red;
   text-decoration: underline;
 }
 .c {
@@ -122,5 +124,6 @@
   left: 50%;
 }
 .c:hover {
+   color: red;
   text-decoration: underline;
 }
