@@ -27,8 +27,8 @@ c.addEventListener("click", track)
 
 function particle() {
   this.speed = {
-    x: -2 + Math.random() * 5,
-    y: -2 + Math.random() * 5
+    x: -2.5 + Math.random() * 5,
+    y: -2.5 + Math.random() * 5
   }
     this.accel = {
     x: -2 + Math.random() * 3,
@@ -38,12 +38,12 @@ function particle() {
     x: mouse.x,
     y: mouse.y
   }
-  this.radius = 10 + Math.random() * 15
+  this.radius = 10 + Math.random() * 20
 }
 
 var draw = function() {
     ctx.globalCompositeOperation = "source-over";
-    ctx.fillStyle = "rgba(0,0,0,0.4)";
+    ctx.fillStyle = "rgba(0,200,100,0.4)";
     ctx.fillRect(0, 0, w, h);
     ctx.globalCompositeOperation = "lighter";
 
