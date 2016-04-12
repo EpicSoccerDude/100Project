@@ -43,7 +43,7 @@ function particle() {
 
 var draw = function() {
     ctx.globalCompositeOperation = "source-over";
-    ctx.fillStyle = "rgba(0,200,100,0.4)";
+    ctx.fillStyle = "rgba(0,0,0,0.4)";
     ctx.fillRect(0, 0, w, h);
     ctx.globalCompositeOperation = "lighter";
 
@@ -51,7 +51,7 @@ var draw = function() {
         var p = particles[i];
 
         ctx.beginPath()
-        ctx.fillStyle = "blue";
+        ctx.fillStyle = "white";
         ctx.arc(p.location.x, p.location.y, p.radius, Math.PI * 2, true);
         ctx.fill()
         p.speed.x += p.accel.x;
