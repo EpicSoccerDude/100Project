@@ -22,12 +22,12 @@ img {
   float: center;
   border-radius: 50%;
 }
-ul {
+a {
   font-size: 18px;
   text-decoration: none;
   color: white;
 }
-ul:hover {
+a:hover {
   margin: 1px;
   text-decoration: underline;
 }
