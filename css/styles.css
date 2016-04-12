@@ -7,9 +7,13 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+h1 {
   color: blue;
   font-size: 35px;
 }
+
 p {
   color: brown;
   font-size: 20px
