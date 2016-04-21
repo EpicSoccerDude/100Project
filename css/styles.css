@@ -1,35 +1,85 @@
 body {
-  display: block;
-  font-family: 'Century Gothic';
-  text-align: center;
-  background: url("https://images.unsplash.com/photo-1437652010333-fbf2cd02a4f8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2330269f135faf1c33bf613b85d5f1df");
+  background: url("https://images.unsplash.com/reserve/kNVnPe0pRZ2bXhAqTH3q_quebec-12.jpg?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
+  color: white;
 }
 
-h1 {
-  color: blue;
-  font-size: 35px;
-}
-
-p {
-  color: brown;
-  font-size: 20px
-}
-img {
-  float: center;
-  border-radius: 50%;
-}
 a {
-  font-size: 18px;
   text-decoration: none;
   color: white !important;
-  font-weight: bold;
-}
-a:hover {
-  margin: 1px;
-  text-decoration: underline;
 }
 
+.header {
+  margin-top: 40vh;
+  margin-bottom: 40vh;
+}
+
+.sites a {
+  font-size: 5vh;
+}
+
+
+.navContainer {
+   position: fixed;
+   display: inline-block;
+   cursor: pointer;
+   top: 3%;
+   left: 5%;
+   z-index: 100;
+   font-family: 'Century Gothic';
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-405deg) translate(-9px, 6px) ;
+    transform: rotate(-405deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(405deg) translate(-8px, -8px) ;
+    transform: rotate(405deg) translate(-8px, -8px) ;
+}
+.overlay {
+  color: white;
+  position: fixed;
+  background: #336600;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s, visibility 5s, width 5s;
+  overflow: hidden;
+}
+.overlay.open {
+  opacity: .9;
+  visibility: visible;
+  height: 100%;
+}
+.overlay.close {
+  transition: opacity 1s, visibility 5s, width 5s;
+}
+.overlay.open ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.home, .blog, .about {
+  padding: 5vh;
+  font-size: 10vh;
+}
