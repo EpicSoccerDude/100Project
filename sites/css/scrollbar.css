@@ -1,0 +1,13 @@
+body::-webkit-scrollbar {
+    background-color: seagreen;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: blue;
+}
+
+body {
+  margin-top: 1000vh;
+  background: black;
+}
+
