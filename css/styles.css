@@ -12,6 +12,10 @@ a {
   color: red !important;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .header {
   margin-top: 40vh;
   margin-bottom: 40vh;
@@ -57,7 +61,7 @@ a {
   background: #336600;
   top: 0;
   left: 0;
-  width: 30%;
+  width: 25%;
   height: 0%;
   opacity: 0;
   visibility: hidden;
@@ -81,5 +85,5 @@ a {
 
 .home, .blog, .about {
   padding: 5vh;
-  font-size: 10vh;
+  font-size: 7vh;
 }
