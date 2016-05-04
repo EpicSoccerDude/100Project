@@ -1,0 +1,23 @@
+body {
+  font-family: 'Century Gothic';
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  background: url("https://images.unsplash.com/photo-1427464407917-c817c9a0a6f6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=812662922febc6b1006719224d6c3772");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+ 
+}
+#com {
+  padding: 10px;
+  border: 2px solid brown;
+  transition: all 1s ease;
+}
+#com:hover {
+  border: 2px solid green;
+}
+#com:active, #com:focus {
+  border-bottom: 2px solid blue;
+}
