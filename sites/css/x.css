@@ -10,7 +10,7 @@ body {
 button {
   padding: 20px;
   position: absolute;
-  top: 45%;
+  top: 45.3%;
   left: 51%;
   background: none;
   border: none;
@@ -25,7 +25,7 @@ button:hover {
 }
 
 #h {
-  color: grey;
+  color: black;
   position: absolute;
   top: -20%;
   left: 30%;
