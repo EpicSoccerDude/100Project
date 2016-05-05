@@ -17,6 +17,7 @@ button {
   outline: none;
   border-radius: 1000px;
   cursor: pointer;
+  transition: all 1s ease;
 }
 
 button:hover {
